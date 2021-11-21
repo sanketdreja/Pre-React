@@ -17,7 +17,7 @@ class FamilyClass extends Component{
          return (
              <>
                <h1>Parent</h1>
-               Balance {this.state.balance}
+               Balance ${this.state.balance}
                <button onClick={this.balanceIncrement}>
                    Family Profit
                </button>
